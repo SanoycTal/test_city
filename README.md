@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Текст поверх картинки</title>
     <style>
-        /* Контейнер для изображения и текста */
         .image-container {
             position: relative; /* Важно для позиционирования текста */
             display: inline-block; /* Чтобы контейнер был по размеру картинки */
             max-width: 100%;
         }
-        /* Стили для изображения */
         .image-container img {
             display: block; /* Убираем лишние отступы */
             width: 100%; /* Адаптивность */
             height: auto;
             border-radius: 10px; /* Опционально: скругление углов */
         }
-
-        /* Стили для текста поверх картинки */
         .overlay-text {
             position: absolute; /* Позиционируем относительно контейнера */
             top: 50%; /* Центрируем по вертикали */
@@ -40,15 +36,10 @@
             width: 80%; /* Ограничиваем ширину текста */
         }
 
-        /* Альтернативный вариант: текст в углу */
-
-        /* Стили для страницы */
-
         h2 {
             color: white;
             margin: 0;
         }
-
         .example {
             text-align: center;
         }
