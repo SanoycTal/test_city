@@ -35,15 +35,13 @@
             pointer-events: none; /* Чтобы текст не мешал кликам по картинке */
             width: 80%; /* Ограничиваем ширину текста */
         }
-
-        h2 {
+        .h2 {
             color: white;
             margin: 0;
         }
         .example {
             text-align: center;
         }
-
         .example p {
             color: #aaa;
             margin-top: 10px;
